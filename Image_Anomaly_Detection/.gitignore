@@ -26,3 +26,6 @@ results/
 
 # 日志文件
 *.log
+
+# 数据集文件夹
+Image_Anomaly_Detection/dataset/
