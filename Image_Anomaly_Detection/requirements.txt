@@ -1,0 +1,9 @@
+# PyTorch 需要单独安装:
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# 其他依赖
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+tqdm>=4.60.0
+Pillow>=9.0.0
+numpy>=1.21.0
