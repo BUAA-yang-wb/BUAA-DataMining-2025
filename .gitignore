@@ -1,1 +1,32 @@
-// init
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# IDE 配置
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# Cluster 目录特定忽略
+Cluster/outputs/
+Cluster/dataset/
+
+# Image_Anomaly_Detection 目录特定忽略
+Image_Anomaly_Detection/results/
+Image_Anomaly_Detection/Image_Anomaly_Detection/
