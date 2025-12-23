@@ -20,12 +20,8 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# 模型输出和结果（可选，根据需要决定是否提交）
-results/
-# *.pth
-
 # 日志文件
 *.log
 
 # 数据集文件夹
-Image_Anomaly_Detection/dataset/
+# 如果要忽略数据或结果，可在此处恢复对应规则

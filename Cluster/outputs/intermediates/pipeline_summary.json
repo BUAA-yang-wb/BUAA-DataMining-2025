@@ -1,0 +1,9 @@
+{
+  "features": "outputs\\features.npy",
+  "pred_labels": "outputs\\pred_labels.json",
+  "evaluation": {
+    "ARI": 1.0,
+    "NMI": 1.0,
+    "Purity": 1.0
+  }
+}

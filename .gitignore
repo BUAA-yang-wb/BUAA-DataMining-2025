@@ -23,10 +23,4 @@ Thumbs.db
 # 日志文件
 *.log
 
-# Cluster 目录特定忽略
-Cluster/outputs/
-Cluster/dataset/
-
-# Image_Anomaly_Detection 目录特定忽略
-Image_Anomaly_Detection/results/
-Image_Anomaly_Detection/Image_Anomaly_Detection/
+# 保持数据与结果文件可提交，若需再次忽略可在各子目录单独调整
