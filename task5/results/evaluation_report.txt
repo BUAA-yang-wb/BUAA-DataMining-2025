@@ -1,0 +1,44 @@
+Multimodal Anomaly Detection Evaluation Report
+==================================================
+
+Model Configuration:
+- Transformer Depth: 6
+- Embedding Dimension: 384
+- Training Epochs: 50
+
+Training Information:
+- Final Training Loss: 2.1045120262142712e-05
+
+Task2 (Image Anomaly Detection) Results:
+- AUC Score: 0.7422
+- Precision: 1.0000
+- Recall: 0.2500
+- F1 Score: 0.4000
+- Accuracy: 0.7955
+
+Task4 (Numerical Anomaly Detection) Results:
+- AUC Score: 0.9586
+- Precision: 0.6538
+- Recall: 0.6711
+- F1 Score: 0.6623
+- Accuracy: 0.9664
+
+Task2 (Image) Confusion Matrix:
+[[32, 0]
+ [9, 3]]
+Format: [[TN, FP], [FN, TP]]
+- Threshold: 0.0001481145591242239
+
+Task4 (Numerical) Confusion Matrix:
+[[1445, 27]
+ [25, 51]]
+Format: [[TN, FP], [FN, TP]]
+- Threshold: 2.7063008019467816e-05
+
+Dataset Information:
+- Image Training Samples: 200
+- Image Test Samples: 44
+- Numerical Training Samples: 1839
+- Numerical Test Samples: 1548
+- Total Training Samples: 2039
+- Total Test Samples: 1592

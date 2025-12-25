@@ -1,0 +1,11 @@
+ƒ£–Õ≈‰÷√:
+  batch_size: 16
+  num_epochs: 50
+  learning_rate: 0.0001
+  weight_decay: 0.05
+  warmup_epochs: 10
+  image_category: hazelnut
+  train_normal_only: True
+  image_data_path: Image_Anomaly_Detection
+  thyroid_data_path: thyroid
+  device: auto

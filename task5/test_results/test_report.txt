@@ -1,0 +1,23 @@
+Multimodal Anomaly Detection Model Test Report
+==================================================
+
+Task2 (Image Anomaly Detection)
+------------------------------
+AUC Score: 0.7188
+Precision: 1.0000
+Recall: 0.2500
+F1 Score: 0.4000
+Accuracy: 0.7955
+
+
+
+Task4 (Numerical Anomaly Detection)
+------------------------------
+AUC Score: 0.9577
+Precision: 0.6538
+Recall: 0.6711
+F1 Score: 0.6623
+Accuracy: 0.9664
+
+
+
