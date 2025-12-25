@@ -1,0 +1,24 @@
+Temperature Prediction - Test Results
+==================================================
+
+Features: 24 (20 meteorological + 4 cyclical)
+
+Performance Metrics:
+- MAE: 9.2993
+- RMSE: 13.3322
+- R²: 0.6840
+- MAPE: 2.11%
+- Median AE: 5.9146
+- Explained Variance: 0.6863
+- Max Error: 70.2598
+
+Error Statistics:
+- Mean error: 1.1525
+- Median error: -1.9751
+- Error std: 13.2823
+- Max positive error: 70.2598
+- Max negative error: -40.0096
+
+Accuracy Analysis:
+- Predictions within ±5: 43.8%
+- Predictions within ±10: 68.8%
