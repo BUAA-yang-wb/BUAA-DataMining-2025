@@ -10,17 +10,9 @@ env/
 ENV/
 .venv/
 
-# IDE 配置
-.vscode/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-
 # 操作系统文件
 .DS_Store
 Thumbs.db
 
 # 日志文件
 *.log
-
-# 保持数据与结果文件可提交，若需再次忽略可在各子目录单独调整
