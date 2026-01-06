@@ -1,0 +1,49 @@
+{
+  "feature_engineering": {
+    "original_dim": 6,
+    "final_dim": 137,
+    "methods": [
+      "polynomial",
+      "moment",
+      "rolling",
+      "bins",
+      "variance_selection"
+    ]
+  },
+  "models": {
+    "IsolationForest": {
+      "n_estimators": 500,
+      "max_samples": 0.8,
+      "contamination": 0.05
+    },
+    "AutoEncoder": {
+      "enabled": true,
+      "encoding_dim": 16,
+      "epochs": 200
+    },
+    "ECOD": {
+      "enabled": true,
+      "contamination": 0.05
+    }
+  },
+  "ensemble_weights": {
+    "IF": 1.0,
+    "AE": 0.5,
+    "ECOD": 1.5
+  },
+  "threshold": 0.3873518532863316,
+  "metrics": {
+    "AUC": 0.9962630013999283,
+    "AP": 0.9131537027842531,
+    "F1": 0.8720379146919431,
+    "Accuracy": 0.9860320744956027,
+    "Precision": 0.7863247863247863,
+    "Recall": 0.9787234042553191
+  },
+  "confusion_matrix": {
+    "TN": 1814,
+    "FP": 25,
+    "FN": 2,
+    "TP": 92
+  }
+}
